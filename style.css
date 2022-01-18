@@ -1,0 +1,200 @@
+* {
+  font-family: "Staatliches", cursive;
+}
+
+.container {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  height: 650px;
+  margin: auto;
+  max-width: 1000px;
+  padding: 25px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+h4 {
+  font-family: "Dancing Script", cursive;
+  color: purple;
+  text-shadow: 2px 2px 2px white;
+  text-align: center;
+  font-size: 26pt;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+h1 {
+  color: purple;
+  text-shadow: 3px 2px 5px rgb(92, 89, 89);
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+
+h3 {
+  color: tan;
+  text-shadow: 2px 2px 5px rgb(177, 174, 174);
+  font-size: x-large;
+  text-align: center;
+  margin-top: 1px;
+}
+
+.donutButton {
+  display: flex;
+  width: 25%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.donutButton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.donutButton:active {
+  transform: scale(1.15);
+}
+
+#reset-game,
+.dropbtn {
+  background-color: palevioletred;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#reset-game:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#learn-more:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  bottom: 30px;
+  text-align: center;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: purple;
+  padding: 6px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content p {
+  color: purple;
+  padding: 2px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {
+  background-color: rgb(158, 142, 142);
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: turquoise;
+}
+
+#github,
+#linkedin {
+  height: 24px;
+}
+
+.main,
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
+  color: palevioletred;
+  text-shadow: 2px 2px 2px white;
+  text-align: center;
+  font-size: 18pt;
+  margin-bottom: 0px;
+  margin-top: 1px;
+}
+
+.cost {
+  color: tan;
+  text-shadow: 2px 2px 5px rgb(177, 174, 174);
+  text-align: center;
+  font-size: 15pt;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+#purchase-auto-clicker {
+  background-color: palevioletred;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding: 12px;
+}
+
+#purchase-auto-clicker:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#purchase-click-multiplier {
+  background-color: palevioletred;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding: 12px;
+  margin-left: 10px;
+}
+
+#purchase-click-multiplier:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+footer {
+  padding-top: 5px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 600px;
+    height: auto;
+    transform: scale(0.8);
+    font-size: scale(0.5);
+  }
+  #reset-game,
+  #learn-more {
+    width: 20%;
+  }
+}
